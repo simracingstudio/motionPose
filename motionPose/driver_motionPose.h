@@ -11,7 +11,7 @@
 /*
 	Obviously we need to include the openvr_driver.h file so we can do the stuff
 */
-#include <openvr_driver.h>
+#include "openvr/headers/openvr_driver.h"
 #define HMD_DLL_EXPORT extern "C" __declspec(dllexport) 
 using namespace vr;
 

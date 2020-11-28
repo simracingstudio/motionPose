@@ -1,6 +1,6 @@
 #pragma once
 
-#include <openvr_driver.h>
+#include "openvr/headers/openvr_driver.h"
 
 // driver namespace
 namespace vrmotioncompensation

@@ -50,5 +50,8 @@
     <ClInclude Include="MotionPoseController.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="openvr_driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

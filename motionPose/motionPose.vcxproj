@@ -19,16 +19,27 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="driver_motionPose.cpp" />
-    <ClCompile Include="driverlog.cpp" />
-    <ClCompile Include="MotionPoseController.cpp" />
-    <ClCompile Include="ServerDriver.cpp" />
-    <ClCompile Include="WatchdogProvider.cpp" />
+    <ClCompile Include="driver_motionPose.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="driverlog.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MotionPoseController.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ServerDriver.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WatchdogProvider.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="driver_motionPose.h" />
     <ClInclude Include="driverlog.h" />
     <ClInclude Include="MotionPoseController.h" />
+    <ClInclude Include="openvr_driver.h" />
     <ClInclude Include="ServerDriver.h" />
     <ClInclude Include="openvr_math.h" />
     <ClInclude Include="WatchdogProvider.h" />
